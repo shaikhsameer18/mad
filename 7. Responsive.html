@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a responsive web page example." />
+    <title>Responsive Web Page</title>
+    <link rel="manifest" href="manifest.json">
+
+    <style>
+        /* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header styles */
+  header {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  /* Navigation styles */
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 20px 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #e50914;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #0d0d0d;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      padding: 0;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    section {
+      padding: 30px 0;
+    }
+  
+    section h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Responsive Web Page</h1>
+      </header>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <h2>Welcome to our website!</h2>
+      <p>
+        This is a responsive web page example. It adjusts its layout based on
+        the screen size, providing optimal viewing experience on various
+        devices.
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Responsive Web Page. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
